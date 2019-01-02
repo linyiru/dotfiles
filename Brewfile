@@ -1,4 +1,5 @@
 tap "buo/cask-upgrade"
+tap "dart-lang/dart"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -19,6 +20,7 @@ brew "base64"
 brew "boost"
 brew "cask"
 brew "cctools"
+brew "circleci"
 brew "cmake"
 brew "ctop"
 brew "curl"
@@ -26,6 +28,7 @@ brew "ffmpeg"
 brew "fish"
 brew "freetype"
 brew "fswatch"
+brew "fzf"
 brew "libxml2"
 brew "pcre"
 brew "gdal"
@@ -36,6 +39,7 @@ brew "git-secrets"
 brew "gnu-sed", args: ["with-default-names"]
 brew "gnupg"
 brew "go"
+brew "grc"
 brew "grep", args: ["with-default-names"]
 brew "icu4c"
 brew "node"
@@ -46,7 +50,7 @@ brew "libtool"
 brew "webp"
 brew "imagemagick"
 brew "jq"
-brew "kubernetes-cli"
+brew "kubernetes-cli", link: false
 brew "kubernetes-helm"
 brew "libevent"
 brew "libmagic"
@@ -56,21 +60,21 @@ brew "libyaml"
 brew "make"
 brew "mas"
 brew "mitmproxy"
+brew "mongodb", restart_service: true
 brew "mosh"
 brew "mysql"
 brew "neovim"
 brew "ngrep"
 brew "nmap"
 brew "opencc"
-brew "opencv"
-brew "postgresql", restart_service: true
+brew "opencv", link: false
 brew "postgis"
-brew "postgresql@9.6"
 brew "qt"
 brew "ruby-build"
 brew "rbenv"
 brew "redis", restart_service: true
 brew "ssh-copy-id"
+brew "terraform"
 brew "tmux"
 brew "tree"
 brew "utf8proc"
@@ -78,10 +82,9 @@ brew "watchman"
 brew "wget"
 brew "whois"
 brew "yarn"
+brew "dart-lang/dart/dart"
 brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
-cask "1password"
-cask "1password6"
 cask "adobe-acrobat-reader"
 cask "alfred"
 cask "contexts"
@@ -92,6 +95,7 @@ cask "fantastical"
 cask "firefox"
 cask "flash-player"
 cask "font-fira-code"
+cask "font-firacode-nerd-font-mono"
 cask "garmin-express"
 cask "google-backup-and-sync"
 cask "google-chrome-dev"
@@ -102,6 +106,7 @@ cask "iina"
 cask "imageoptim"
 cask "iterm2"
 cask "java"
+cask "keycastr"
 cask "livereload"
 cask "logitech-control-center"
 cask "logitech-options"
@@ -109,7 +114,9 @@ cask "logitech-unifying"
 cask "macdown"
 cask "microsoft-office"
 cask "minikube"
+cask "mongodb-compass"
 cask "nally"
+cask "ngrok"
 cask "pgadmin4"
 cask "postman"
 cask "psequel"
@@ -131,10 +138,12 @@ cask "visual-studio-code"
 cask "whatsapp"
 cask "wireshark"
 cask "zeplin"
+mas "1Password 7", id: 1333542190
 mas "Agenda", id: 1287445660
 mas "Bear", id: 1091189122
 mas "Day One", id: 1055511498
 mas "Evernote", id: 406056744
+mas "Fantastical 2", id: 975937182
 mas "HyperDock", id: 449830122
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
@@ -147,7 +156,6 @@ mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
-mas "Quip", id: 1003160018
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
 mas "SnippetsLab", id: 1006087419
