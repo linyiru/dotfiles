@@ -1,4 +1,4 @@
-# http://docs.rubygems.org/read/chapter/11
+# https://guides.rubygems.org/command-reference/
 --- 
 gem: --no-ri --no-rdoc
 benchmark: false
@@ -9,3 +9,5 @@ sources:
 - http://rubygems.org/
 backtrace: true
 bulk_threshold: 1000
+install: --no-rdoc --no-ri --no-document
+update: --no-rdoc --no-ri --no-document
