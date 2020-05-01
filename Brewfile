@@ -9,127 +9,110 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "puma/puma"
-cask "xquartz"
 brew "amazon-ecs-cli"
+brew "anycable-go"
+brew "autoconf"
 brew "autojump"
-brew "readline"
-brew "sqlite"
-brew "xz"
+brew "openssl@1.1"
 brew "awscli"
 brew "base64"
 brew "boost"
-brew "cask"
-brew "cctools"
-brew "circleci"
+brew "pcre"
 brew "cmake"
 brew "ctop"
 brew "curl"
+brew "go"
+brew "dep"
 brew "ffmpeg"
 brew "fish"
-brew "freetype"
 brew "fswatch"
 brew "fzf"
 brew "libxml2"
-brew "pcre"
+brew "libtool"
+brew "nss"
+brew "qt"
 brew "gdal"
 brew "ghostscript"
 brew "git"
 brew "git-extras"
 brew "git-secrets"
-brew "gnu-sed", args: ["with-default-names"]
+brew "gnu-sed"
 brew "gnupg"
-brew "go"
 brew "grc"
-brew "grep", args: ["with-default-names"]
-brew "icu4c"
-brew "node"
-brew "grunt-cli"
+brew "grep"
 brew "htop"
 brew "hugo"
-brew "libtool"
-brew "webp"
 brew "imagemagick"
 brew "jq"
-brew "kubernetes-cli", link: false
-brew "kubernetes-helm"
-brew "libevent"
+brew "kubernetes-cli"
 brew "libmagic"
 brew "libsvg"
 brew "libxslt"
 brew "libyaml"
 brew "make"
 brew "mas"
+brew "minikube"
 brew "mitmproxy"
-brew "mongodb", restart_service: true
 brew "mosh"
 brew "mysql"
 brew "neovim"
 brew "ngrep"
 brew "nmap"
+brew "node@12"
 brew "opencc"
-brew "opencv", link: false
-brew "postgis"
-brew "qt"
+brew "opencv"
+brew "pkg-config"
+brew "podofo"
+brew "postgresql", restart_service: true
 brew "ruby-build"
 brew "rbenv"
-brew "redis", restart_service: true
-brew "ssh-copy-id"
+brew "ssh-copy-id", link: true
+brew "terminal-notifier"
 brew "terraform"
+brew "utf8proc"
 brew "tmux"
 brew "tree"
-brew "utf8proc"
+brew "vips"
 brew "watchman"
 brew "wget"
 brew "whois"
-brew "yarn"
-brew "dart-lang/dart/dart"
 brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
 cask "adobe-acrobat-reader"
 cask "alfred"
-cask "blisk"
 cask "contexts"
+cask "discord"
 cask "docker"
 cask "dropbox"
-cask "balenaetcher"
-cask "fantastical"
+cask "etcher"
 cask "firefox"
-cask "flash-player"
 cask "font-fira-code"
 cask "font-firacode-nerd-font-mono"
 cask "garmin-express"
 cask "google-backup-and-sync"
 cask "google-chrome-dev"
 cask "google-cloud-sdk"
-cask "google-drive-file-stream"
 cask "hazel"
 cask "iina"
 cask "imageoptim"
 cask "iterm2"
 cask "java"
-cask "keycastr"
-cask "livereload"
+cask "lepton"
 cask "logitech-control-center"
 cask "logitech-options"
 cask "logitech-unifying"
-cask "macdown"
 cask "microsoft-office"
 cask "minikube"
-cask "mongodb-compass"
 cask "nally"
-cask "ngrok"
-cask "pgadmin4"
+cask "notion"
+cask "now"
 cask "postman"
 cask "psequel"
 cask "quik"
-cask "quip"
 cask "sdformatter"
 cask "setapp"
-cask "sketch"
 cask "slack"
 cask "spotify"
-cask "syncthing-app"
-cask "synology-drive"
 cask "telegram"
 cask "tower2"
 cask "transmit4"
@@ -137,33 +120,27 @@ cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "whatsapp"
-cask "wireshark"
+cask "xquartz"
 cask "zeplin"
 mas "1Password 7", id: 1333542190
-mas "Agenda", id: 1287445660
 mas "Bear", id: 1091189122
 mas "Day One", id: 1055511498
+mas "Drafts", id: 1435957248
 mas "Evernote", id: 406056744
-mas "Fantastical 2", id: 975937182
 mas "HyperDock", id: 449830122
 mas "iA Writer", id: 775737590
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
+mas "Messenger", id: 1480068668
 mas "MWeb", id: 954188948
 mas "Numbers", id: 409203825
-mas "OmniFocus", id: 1346203938
-mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
 mas "SnippetsLab", id: 1006087419
-mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
-mas "Things3", id: 904280696
+mas "Things", id: 904280696
 mas "Trello", id: 1278508951
-mas "Tweetbot", id: 1384080005
-mas "WeChat", id: 836500024
 mas "Xcode", id: 497799835
