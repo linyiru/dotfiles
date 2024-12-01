@@ -80,11 +80,9 @@ brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
 cask "adobe-acrobat-reader"
 cask "alfred"
-cask "contexts"
 cask "discord"
 cask "docker"
 cask "dropbox"
-cask "etcher"
 cask "firefox"
 cask "font-fira-code"
 cask "font-firacode-nerd-font-mono"
@@ -95,52 +93,29 @@ cask "google-cloud-sdk"
 cask "hazel"
 cask "iina"
 cask "imageoptim"
-cask "iterm2"
-cask "java"
 cask "lepton"
-cask "logitech-control-center"
-cask "logitech-options"
-cask "logitech-unifying"
-cask "microsoft-office"
-cask "minikube"
-cask "nally"
-cask "notion"
 cask "now"
-cask "postman"
-cask "psequel"
 cask "quik"
-cask "sdformatter"
 cask "setapp"
 cask "slack"
 cask "spotify"
 cask "telegram"
-cask "tower2"
 cask "transmit4"
-cask "vagrant"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "whatsapp"
 cask "xquartz"
-cask "zeplin"
 mas "1Password 7", id: 1333542190
 mas "Bear", id: 1091189122
 mas "Day One", id: 1055511498
 mas "Drafts", id: 1435957248
-mas "Evernote", id: 406056744
 mas "HyperDock", id: 449830122
 mas "iA Writer", id: 775737590
 mas "Keynote", id: 409183694
-mas "LINE", id: 539883307
-mas "Messenger", id: 1480068668
-mas "MWeb", id: 954188948
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Pixelmator", id: 407963104
-mas "Pocket", id: 568494494
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
 mas "SnippetsLab", id: 1006087419
 mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
-mas "Trello", id: 1278508951
 mas "Xcode", id: 497799835
