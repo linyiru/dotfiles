@@ -1,6 +1,5 @@
 tap "buo/cask-upgrade"
 tap "dart-lang/dart"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -76,46 +75,34 @@ brew "vips"
 brew "watchman"
 brew "wget"
 brew "whois"
-brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
 cask "adobe-acrobat-reader"
-cask "alfred"
 cask "discord"
 cask "docker"
 cask "dropbox"
 cask "firefox"
 cask "font-fira-code"
 cask "font-firacode-nerd-font-mono"
-cask "garmin-express"
 cask "google-backup-and-sync"
-cask "google-chrome-dev"
 cask "google-cloud-sdk"
 cask "hazel"
 cask "iina"
 cask "imageoptim"
 cask "lepton"
-cask "now"
-cask "quik"
 cask "setapp"
 cask "slack"
 cask "spotify"
 cask "telegram"
 cask "transmit4"
-cask "virtualbox"
 cask "visual-studio-code"
 cask "whatsapp"
-cask "xquartz"
 mas "1Password 7", id: 1333542190
-mas "Bear", id: 1091189122
-mas "Day One", id: 1055511498
 mas "Drafts", id: 1435957248
-mas "HyperDock", id: 449830122
 mas "iA Writer", id: 775737590
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Quiver", id: 866773894
 mas "Reeder", id: 880001334
-mas "SnippetsLab", id: 1006087419
 mas "The Unarchiver", id: 425424353
 mas "Xcode", id: 497799835
